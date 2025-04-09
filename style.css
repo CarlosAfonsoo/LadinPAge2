@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: o;
     margin: 0;
@@ -36,6 +37,7 @@ header{
     display: grid;
     grid-auto-flow: column;
     background-color: #F9F9F9;
+    /* justify-content: center; */
 }
 
 .itens h4{
@@ -45,6 +47,8 @@ header{
 .iten1 , .iten2 , .iten3{
     position: relative;
     top: 35%;
+    left: 22%;
+    
 }
 
 .descri{
@@ -56,6 +60,8 @@ header{
 
 .descri > img{
     border-radius: 30px;
+    width: 510px;
+    height: 605px;
 }
 
 .text2 > h4{
@@ -64,4 +70,51 @@ header{
 
 .text2 > p{
     font-family: 24px;
+}
+
+footer{
+    background-color: #303030;
+    padding: 20px;
+    height:  475px;
+    width: auto;
+}
+
+form{
+    display: grid;
+    
+}
+
+form > h4{
+    color: #FFFFFF;
+    font-size: 32px;
+
+}
+
+input[type = 'text']{
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Raleway';
+}
+
+input[type= 'button']{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    border: #C07212;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: #a16112;
+}
+
+
+input[type="button"]:active {
+    background-color: #79490f;
 }
