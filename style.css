@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: o;
+    margin: 0;
+    font-family: 'inter';
+}
+
+header{
+    background-color: #303030;
+    border: 1px solid black;
+    padding: 20px;
+    height: 475px;
+
+}
+
+.txt{
+    margin-top: 100px;
+    margin-left: 72px;
+    padding: 20px;
+    color: #FFFFFF;
+
+}
+
+.txt > h4{
+    font-size: 60px;
+}
+
+.txt > p{
+    font-size: 20px;
+}
+
+.itens{
+    height: 229px;
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #F9F9F9;
+}
+
+.itens h4{
+    font-size: 40px;
+}
+
+.iten1 , .iten2 , .iten3{
+    position: relative;
+    top: 35%;
+}
+
+
