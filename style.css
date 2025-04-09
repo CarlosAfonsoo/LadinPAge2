@@ -75,20 +75,23 @@ header{
 footer{
     background-color: #303030;
     padding: 20px;
-    height:  475px;
+    /* height:  475px; */
     width: auto;
 }
 
 form{
     display: grid;
-    
+    justify-content: center;
+    gap: 10px;
 }
 
 form > h4{
     color: #FFFFFF;
     font-size: 32px;
-
+    margin-top: 87px;
 }
+
+
 
 input[type = 'text']{
     width: 508px;
@@ -96,6 +99,20 @@ input[type = 'text']{
     background-color: #FFFFFF;
     border-radius: 10px;
     font-family: 'Raleway';
+    border: 1px solid black;
+}
+
+input[type="text"]::placeholder{
+    font-family: 'Raleway';
+    font-size: 24px;
+}
+
+.nome{
+    margin-top: 96px;
+}
+
+.email{
+    margin-top: 134px;
 }
 
 input[type= 'button']{
@@ -108,10 +125,16 @@ input[type= 'button']{
     color: #FFFFFF;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 142px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
 }
 
 input[type="button"]:hover {
     background-color: #a16112;
+    
 }
 
 
