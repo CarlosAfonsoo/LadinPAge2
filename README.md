@@ -7,7 +7,7 @@ O projeto utiliza uma **planilha online como base de dados** e está **hospedado
 
 ### 🧠 Tecnologias Utilizadas
 - HTML, CSS e JavaScript  
-- Integração com Google Sheets  
+- Integração com Google Sheets (Sheet Monkey)  
 - Hospedagem via Netlify
 
 ---
