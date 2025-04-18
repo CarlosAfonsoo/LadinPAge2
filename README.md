@@ -1,4 +1,4 @@
-# 🚀 LadinPAge2
+# 🚀 LadingPage
 
 Uma landing page simples e funcional, desenvolvida especialmente para a **Escola DNC** como parte de um desafio prático.  
 O projeto utiliza uma **planilha online como base de dados** e está **hospedado na Netlify** para fácil acesso e visualização.
