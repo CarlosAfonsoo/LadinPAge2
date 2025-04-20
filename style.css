@@ -11,26 +11,34 @@
 header {
     background-color: #303030;
     padding: 40px 20px;
+    height: 475px;
 }
 
 .txt {
+    height: 72px;
     margin-bottom: 50px;
-    margin-top: 60px;
-    margin-left: 72px;
-    padding: 0;
+    margin-top: 206px;
+    margin-left: 62px;
     color: #FFFFFF;
 }
 
 .txt > h4 {
     font-size: 60px;
     margin-bottom: 16px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+    font-weight: 600;
 }
 
 .txt > p {
     font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    line-height: 28px;
 }
 
 .itens {
+    height: 229px;
     padding: 40px 20px;
     display: flex;
     justify-content: space-around;
@@ -39,8 +47,21 @@ header {
     text-align: left;
 }
 
+.span{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
 .itens h4 {
     font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
 }
 
 .iten1, .iten2, .iten3 {
@@ -48,7 +69,10 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    color: #000000;
+
 }
+
 
 .descri {
     display: grid;
@@ -56,6 +80,8 @@ header {
     gap: 40px;
     padding: 40px 20px;
     align-items: center;
+    margin-bottom: 80px;
+    
 }
 
 .descri > img {
@@ -63,6 +89,10 @@ header {
     width: 510px;
     height: auto;
     margin-top: 0;
+}
+
+.text2{
+    margin-left: 80px;
 }
 
 .text2 > h4 {
@@ -77,6 +107,7 @@ header {
 }
 
 footer {
+    height: 638px;
     background-color: #303030;
     padding: 40px 20px;
 }
@@ -106,6 +137,16 @@ input[type='text'] {
     border: 0px;
 }
 
+.nome{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.email{
+    margin-bottom: 40px;
+
+}
+
 input[type="text"]::placeholder {
     font-family: 'Raleway';
     font-size: 20px;
@@ -119,7 +160,7 @@ input[type="text"]::placeholder {
     margin-top: 0;
 }
 
-input[type='button'] {
+input[type='submit'] {
     background-color: #C07212;
     width: 286px;
     height: 60px;
@@ -139,10 +180,10 @@ input[type='button'] {
 
 /* Teste */
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background-color: #a16112;
 }
 
-input[type="button"]:active {
+input[type="submit"]:active {
     background-color: #79490f;
 }
